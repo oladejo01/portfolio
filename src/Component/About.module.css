@@ -1,0 +1,53 @@
+*{
+box-sizing: border-box;
+
+}
+.About{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: rgb(247, 242, 242);
+}
+.post{
+    color: rgb(228, 139, 22);
+    font-size: 1.5rem;
+
+}
+.MeetMe{
+    width: 50%;
+    /* height: 20rem;  */
+    color: black;
+    border-radius: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 4rem;
+}
+.h1{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color:black;
+    margin-top: -6rem;
+}
+.intro{
+    font-size: 2rem;
+    padding: 0.5rem;
+    color: black;
+}
+p{
+    color: black;
+}
+.image, .img{
+    width: 40%;
+    height: 20rem;
+    background-color: brown;
+    border-radius: 50%;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}

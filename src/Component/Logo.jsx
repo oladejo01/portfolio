@@ -4,7 +4,7 @@ import classes from './Navbar.module.css'
 
 function Logo() {
   return (
-    <div className= {classes.Logo}>Oladejo Mariam</div>
+    <div className= {classes.Logo}><h1>Oladejo Mariam</h1></div>
   )
 }
 

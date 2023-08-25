@@ -2,6 +2,13 @@
 box-sizing: border-box;
 
 }
+.aboutContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(247, 242, 242);
+}
 .About{
     width: 100%;
     height: 80vh;
@@ -9,9 +16,9 @@ box-sizing: border-box;
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    padding: 2rem;
     background-color: rgb(247, 242, 242);
 }
+
 .post{
     color: rgb(228, 139, 22);
     font-size: 1.5rem;
@@ -40,14 +47,63 @@ box-sizing: border-box;
 p{
     color: black;
 }
-.image, .img{
+.image{
     width: 40%;
     height: 20rem;
-    background-color: brown;
+    /* background-color: brown; */
     border-radius: 50%;
 }
 .img{
     width: 100%;
     height: 100%;
     border-radius: 50%;
+    /* object-fit: contain; */
+}
+.stack{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;   
+    margin-left: -30rem;
+    margin-bottom: 5rem;
+    
+}
+.stackTitle{
+    font-size: 1.5rem;
+    border-bottom: 3px dashed  rgb(228, 139, 22);
+    font-weight: 600;
+    color:black;
+    font-style: initial;
+    margin-bottom: 2rem;
+}
+.stackIcons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.stackIcon{
+   width: 5rem;
+   height: 5rem; 
+}
+@media screen and (max-width:1000px) {
+    .stack{
+        margin-left: 0rem;
+        align-items: center;
+    }
+    .About{
+        height: 100%;
+    }
+}
+@media screen and (max-width:800px) {
+    .About{
+       flex-direction: column;
+       height: 100%;
+    }
+    .MeetMe{
+        width: 100%;
+    }
+    .image{
+        display: none;
+    }
+   
 }

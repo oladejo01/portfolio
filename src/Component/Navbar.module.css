@@ -20,14 +20,21 @@ ul{
     font-style: italic;
     font-weight: 600;
     padding-left: 2rem;
-}
-.Logo{
-    /* width: 10rem; */
     margin-left: 3rem;
+    animation: slide 5s linear 1s 1 normal;
+
 }
 li{
     color: black;
 }
 li:hover{
     color: rgb(255, 0, 0);
+}
+@keyframes slide {
+    from{
+        transform: translateX(300px);
+    }
+    to{
+        transform: translateX(0);
+    }
 }

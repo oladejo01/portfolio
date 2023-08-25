@@ -26,20 +26,20 @@ function Project() {
         <div className={classes.project}>
             <div className={classes.content}>
                 <h1 className={classes.proName}>BMI CALCULATOR</h1>
-                <p>This bmi calculator help users to calculate their body mass index (bmi), users are required to input ther weight and height
+                <p>This bmi calculator help users to calculate their body mass index (bmi), users are required to input their weight and height
                 then on click of the calculate button, their bmi value displays, including their status that is whether 
                 underweight (in yellow color), normal (in blue color), overweight (in orange color) and obesity (in red color).
                  This is designed using HTML5, CSS3, JavaScript.</p>
                 <button><Link to = "https://project-bmi-cal-2.vercel.app/" > View Project </Link></button>  
             </div>
             <div className={classes.image}>
-                <img className={classes.proImg} src = {bmi} alt = "bmi" />
+                <img className={classes.proimg} src = {bmi} alt = "bmi" />
             </div>
         </div>
 
         <div className={classes.project}>
             <div className={classes.image}>
-                <img className={classes.proImg} src = {rps} alt = "rock paper scissors"/>
+                <img className={classes.proimg} src = {rps} alt = "rock paper scissors"/>
             </div>
             <div className={classes.content}>
                 <h1 className={classes.proName}>PAPER ROCK SCISSORS GAME</h1>
